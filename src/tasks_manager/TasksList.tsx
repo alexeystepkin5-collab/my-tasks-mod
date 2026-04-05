@@ -45,7 +45,6 @@ export const TasksList: React.FC<TaksListProps> = ({ tasks, onAddTask, selectedT
                 }
                 }}
                 >
-              <Typography variant="h6">{task.id}</Typography>
               <Typography variant="h6">{task.title}</Typography>
               <Typography variant="subtitle1">{task.priority}</Typography>
               <Typography variant="subtitle1">{task.isdone && "Выполнено!"}</Typography>
